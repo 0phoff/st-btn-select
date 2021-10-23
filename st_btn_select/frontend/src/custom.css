@@ -1,0 +1,74 @@
+/* WRAPPER */
+.wrapper {
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.wrapper button:first-child {
+  margin-left: 0;
+}
+
+.wrapper button:last-child {
+  margin-right: 0;
+}
+
+/* BASE BUTTON */
+button {
+  font-weight: 400;
+  border-radius: 0.25rem;
+  margin: 0 0.4rem;
+  line-height: 1.5;
+  padding: 0.25rem 0.75rem;
+  color: var(--text-color);
+  user-select: none;
+  border-width: 1px;
+  border-style: solid;
+}
+
+/* NAV BUTTON */
+nav button {
+  font-size: 0.9rem;
+  padding: 0.5rem;
+}
+
+/* LIGHT THEME */
+button.light {
+  background-color: white;
+  border-color: rgba(49, 51, 63, 0.2);
+}
+
+/* DARK THEME */
+button.dark {
+  background-color: rgb(19, 23, 32);
+  border-color: rgba(250, 250, 250, 0.2);
+}
+
+/* BUTTON STATES */
+button:hover {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+button:focus:not(:active) {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  color: white !important;
+  background-color: var(--primary-color);
+  color: var(--primary-color);
+  outline: none;
+}
+
+button:disabled {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+  cursor: pointer;
+}
