@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="st_btn_select",
-    version="0.1.0",
+    version="0.1.1",
     author="0phoff",
     description="Streamlit Button Selection Component",
     long_description=open('README.md').read(),
