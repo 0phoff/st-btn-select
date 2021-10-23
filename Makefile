@@ -8,6 +8,7 @@
 ##############################
 component = st_btn_select
 frontend = ${component}/frontend
+testfile = demo/test.py
 
 ##############################
 # Settings
@@ -53,4 +54,4 @@ test:
 		(cd ${frontend} && npm install && npm run build)
 	fi
 
-	ST_RELEASE=${release} streamlit run test.py
+	ST_RELEASE=${release} streamlit run ${testfile}
