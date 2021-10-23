@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="57.095837mm"
-   height="23.758335mm"
-   viewBox="0 0 57.095837 23.758335"
+   width="53.095837mm"
+   height="15.758334mm"
+   viewBox="0 0 53.095837 15.758334"
    version="1.1"
    id="svg5"
    inkscape:version="1.1.1 (1:1.1+202109281949+c3084ef5ed)"
@@ -24,14 +24,14 @@
      inkscape:document-units="px"
      showgrid="false"
      showguides="false"
-     lock-margins="true"
-     fit-margin-top="5"
-     fit-margin-left="5"
-     fit-margin-right="5"
-     fit-margin-bottom="5"
-     inkscape:zoom="2.8069753"
-     inkscape:cx="115.07048"
-     inkscape:cy="61.632178"
+     lock-margins="false"
+     fit-margin-top="1"
+     fit-margin-left="3"
+     fit-margin-right="3"
+     fit-margin-bottom="1"
+     inkscape:zoom="3.9696625"
+     inkscape:cx="94.466468"
+     inkscape:cy="46.099636"
      inkscape:window-width="1875"
      inkscape:window-height="1035"
      inkscape:window-x="45"
@@ -44,9 +44,9 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-18.176575,-10.915709)">
+     transform="translate(-20.176575,-14.915709)">
     <rect
-       style="fill:none;stroke:#31333f;stroke-width:0.529167;stroke-opacity:0.2;-inkscape-stroke:none;stop-color:#000000"
+       style="fill:#ffffff;fill-opacity:1;stroke:#31333f;stroke-width:0.529167;stroke-opacity:0.2;-inkscape-stroke:none;stop-color:#000000"
        id="rect1146"
        width="13.229167"
        height="13.229167"
@@ -57,7 +57,7 @@
     <g
        id="g10591">
       <rect
-         style="fill:none;stroke:#ff4b4b;stroke-width:0.529167;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         style="fill:#ffffff;fill-opacity:1;stroke:#ff4b4b;stroke-width:0.529167;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
          id="rect972"
          width="13.229167"
          height="13.229167"
@@ -78,7 +78,7 @@
     <g
        id="g10596">
       <rect
-         style="fill:none;stroke:#31333f;stroke-width:0.529167;stroke-opacity:0.2;-inkscape-stroke:none;stop-color:#000000"
+         style="fill:#ffffff;fill-opacity:1;stroke:#31333f;stroke-width:0.529167;stroke-opacity:0.2;-inkscape-stroke:none;stop-color:#000000"
          id="rect1144"
          width="13.229167"
          height="13.229167"
