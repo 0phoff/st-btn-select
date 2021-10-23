@@ -1,10 +1,8 @@
-import os
-import warnings
 import streamlit as st
 import streamlit.components.v1 as components
 
 __all__ = ['st_btn_select']
-__RELEASE = bool(os.getenv('ST_RELEASE'))
+__RELEASE = True
 
 
 if not __RELEASE:
