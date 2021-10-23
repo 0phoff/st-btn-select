@@ -41,4 +41,4 @@ selection = st_btn_select(('option 1', 'option 2', 'option 3'))
 [license-url]: https://github.com/0phoff/st-btn-select/blob/master/LICENSE.md
 
 [share-badge]: https://static.streamlit.io/badges/streamlit_badge_black_white.svg
-[share-url]: https://share.streamlit.io/0phoff/st-btn-select/test.py
+[share-url]: https://share.streamlit.io/0phoff/st-btn-select/demo/test.py
