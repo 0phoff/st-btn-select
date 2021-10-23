@@ -60,7 +60,7 @@ if page == 'home':
 
 
 ## Documentation
-Check out this streamlit app for the documentation, as well as a demo.
+Check out this streamlit app for the documentation, as well as a demo.  
 [![Open in Streamlit][share-badge]][share-url] 
 
 
