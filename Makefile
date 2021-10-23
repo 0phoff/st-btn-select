@@ -15,8 +15,8 @@ testfile = demo/test.py
 ##############################
 SHELL := /bin/bash
 .ONESHELL:
-.PHONY: publish test
-.NOTPARALLEL: publish test
+.PHONY: publish clean build test
+.NOTPARALLEL: publish clean test
 .SILENT: publish build build-js build-py test
 
 
@@ -24,7 +24,7 @@ SHELL := /bin/bash
 ##############################
 # Build
 ##############################
-build: build-js build-py
+build: clean build-py
 
 
 ##############################
@@ -42,6 +42,22 @@ build-js:
 build-py: build-js
 	ST_RELEASE=1 python setup.py sdist bdist_wheel
 
+
+##############################
+# Clean
+##############################
+clean:
+	rm -rf build/*
+	rm -rf dist/*
+
+
+##############################
+# Publish to PyPi
+##############################
+publish: release :=
+publish: repo = $(if ${release}, ,--repository testpypi)
+publish:
+	python3 -m twine upload ${repo} dist/*
 
 ##############################
 # Test

@@ -1,2 +1,1 @@
 recursive-include st_btn_select/frontend/build *
-include LICENSE
